@@ -167,10 +167,82 @@ h1{
 
 /* main - fifth section */
 #sec-5{
-    margin: 200px 0;
+    margin: 150px 0;
     font-family: 'Hind Vadodara', sans-serif;
 }
 
 #clienti{
     margin-top: 40px;
+}
+
+/* main - sixth section */
+.conteiner-loghi{
+    height: 50vh;
+    background-color: #f5f5f5;
+}
+
+.center-logo img{
+    display: block;
+}
+
+.conteiner-loghi div{
+    flex-basis: calc(100% / 3);
+}
+
+#designit{
+    background-color: #a2d39b;
+    border: 15px solid #d2e9cd;
+}
+
+#asu{
+    background-color: #61082b;
+}
+
+#u-f{
+    background-color: #0193ce;
+}
+
+#topps{
+    background-color: #ff1c1c;
+}
+
+#world-br{
+    background-color: #d5161f;
+}
+
+#hearts-corp{
+    background-color: #b4d0e7;
+}
+
+#lonely-p{
+    background-color: #0d2581;
+}
+
+#clear-ch{
+    background-color: #fed830;
+}
+
+.logo-central{
+    padding: 50px;
+    overflow-y: auto;
+}
+
+.logo-central hr{
+    width: 20%;
+    border: 1px solid lightgrey;
+}
+
+.loghi-sx div, .loghi-dx div{
+    flex-basis: calc(100% / 2);
+    height: 50%;
+}
+
+.conteiner-under-loghi{
+    background-color: #b4d0e7;
+    height: 30vh;
+    font-family:  'Hind Vadodara', sans-serif;
+}
+
+.conteiner-under-loghi h2{
+    color: #600628;
 }
