@@ -9,7 +9,7 @@ header{
     z-index: 999999999;
 }
 
-ul li{
+header ul li{
     margin: 0 20px;
 }
 
@@ -240,9 +240,49 @@ h1{
 .conteiner-under-loghi{
     background-color: #b4d0e7;
     height: 30vh;
-    font-family:  'Hind Vadodara', sans-serif;
+    font-family: 'Hind Vadodara', sans-serif;
 }
 
 .conteiner-under-loghi h2{
     color: #600628;
+}
+
+/* footer */
+footer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #000000;
+    color: white;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+.conteiner-footer{
+    margin-bottom: 100px;
+}
+
+.conteiner-footer div{
+    flex-basis: calc(90% / 5);
+}
+
+.conteiner-footer h3{
+    margin: 20px 0;
+}
+
+.conteiner-footer li{
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+footer hr{
+    width: 10%;
+    border: 0,5px solid white;
+}
+
+.language{
+    margin-top: 30px;
+    color: grey;
+    font-size: 13px;
+}
+
+.language span{
+    margin: 0 10px;
 }
