@@ -21,6 +21,9 @@ a{
 .debug{
     border: 1px solid red;
 }
+.sticky{
+    position: sticky;
+}
 
 .fixed{
     position: fixed;
@@ -36,10 +39,42 @@ a{
     flex-direction: column;
 }
 
+.justify-content-sb{
+    justify-content: space-between;
+}
+
 .justify-content-c{
     justify-content: center;
 }
 
 .align-items-c{
     align-items: center;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.button-blue{
+    background-color: #1d61ff;
+    color: white;
+    padding: 5px 15px;
+}
+
+.conteiner-60{
+    margin: auto;
+    width: 60%;
+}
+
+.conteiner-50{
+    margin: auto;
+    width: 50%;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
 }

@@ -1,19 +1,49 @@
 /* header */
 header{
-    justify-content: space-between;
     top: 0;
     left: 0;
     right: 0;
     padding: 20px;
-    font-family: 'Hind Vadodara', sans-serif;;
+    font-family: 'Hind Vadodara', sans-serif;
 }
 
 ul li{
     margin: 0 20px;
 }
 
-header a{
-    background-color: #1d61ff;
-    color: white;
-    padding: 5px 15px;
+/* main - first section */
+#sec-1{
+    background-color: #b4d0e7;
+    padding-top: 60px;
+}
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#sec-1 p{
+    margin-bottom: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+#sec-1 a{
+    margin-bottom: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+#sec-1 span{
+    font-family: 'Hind Vadodara', sans-serif;
+    margin-bottom: 50px;
+}
+
+#sec-1 i{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#sec-1 img{
+    top: 100;
+    right: 0;
 }
