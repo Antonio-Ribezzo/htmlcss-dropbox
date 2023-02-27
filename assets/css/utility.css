@@ -1,0 +1,45 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: inside;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* utility */
+.debug{
+    border: 1px solid red;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-content-c{
+    justify-content: center;
+}
+
+.align-items-c{
+    align-items: center;
+}
