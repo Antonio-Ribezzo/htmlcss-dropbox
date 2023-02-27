@@ -1,25 +1,29 @@
 /* header */
 header{
+    background-color: white;
     top: 0;
     left: 0;
     right: 0;
     padding: 20px;
     font-family: 'Hind Vadodara', sans-serif;
+    z-index: 999999999;
 }
 
 ul li{
     margin: 0 20px;
 }
 
+header a{
+    text-decoration: none;
+}
+
 /* main - first section */
 #sec-1{
     background-color: #b4d0e7;
-    padding-top: 60px;
+    padding-top: 140px;
 }
 
 h1{
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 60px;
     margin-bottom: 30px;
 }
 
@@ -37,6 +41,9 @@ h1{
     font-family: 'Hind Vadodara', sans-serif;
     margin-bottom: 50px;
 }
+#sec-1 a{
+    text-decoration: none;
+}
 
 #sec-1 i{
     font-size: 40px;
@@ -46,4 +53,72 @@ h1{
 #sec-1 img{
     top: 100;
     right: 0;
+}
+
+/* main - second section */
+#sec-2{
+    margin-top: 120px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.conteiner-plan{
+    margin-top: 50px;
+}
+
+.card{
+    flex-basis: calc(90% / 3);
+}
+
+.card-plan{
+    text-align: center;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 13px;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+.card-plan>i{
+    margin-right: 5px;
+}
+
+.info-plan{
+    padding: 30px;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 50px;
+    font-size: 13px;
+}
+
+.info-plan h4{
+    margin-bottom: 5px;
+}
+
+.info-plan span{
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.info-plan .fa-user, .fa-folder, .fa-share-nodes, .fa-check{
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.info-plan .button-blue{
+    margin: 30px 0;
+}
+
+.info-plan hr{
+    border: 1px solid lightgray;
+    width: 30%;
+    margin: 30px 0;
+}
+
+.fa-check{
+    color: #1d61ff;
+}
+
+.ciao{
+    margin-bottom: 50px;
 }

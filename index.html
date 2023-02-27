@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700;900&display=swap" rel="stylesheet">
     <!-- link font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- link utility css -->
@@ -22,7 +22,7 @@
 <body>
 
     <!-- header in position fixed -->
-    <header class="sticky flex-row justify-content-sb">
+    <header class="fixed flex-row justify-content-sb">
         <div class="flex-row align-items-c">
             <img src="./assets/img/logo-small.png" alt="logo-dropbox">
             <nav>
@@ -67,6 +67,99 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="sec-2">
+            <div class="conteiner-50">
+                <h2>Trova il piano business che fa per te</h2>
+                <!-- checkbox -->
+                <div class="checkbox flex-row">
+                    <label class="container-fatt flex-row align-items-c justify-content-c">Fatturazione mensile
+                        <input type="radio" name="radio" checked="checked">
+                        <span class="checkmark"></span>
+                    </label> 
+                    <label class="container-fatt">Fatturazione annuale
+                        <input type="radio" name="radio">
+                        <span class="checkmark"></span>
+                    </label> 
+                </div>
+                <!-- card plans -->
+                <div class="conteiner-plan flex-row justify-content-sb">
+                    <!-- left-card -->
+                    <div class="card">
+                        <div class="card-plan">
+                            <i class="fa-solid fa-user"></i>
+                            Singolo
+                        </div>
+                        
+                        <div class="info-plan flex-column">
+                            <h3>Professional</h3>
+                            <h4>&euro; 12.00</h4>
+                            <span>/mese</span>
+                            <div class="flex-column justify-content-c">
+
+                                <div class="flex-row justify-content-st align-items-st">
+                                    <div><i class="fa-solid fa-user"></i></div>
+                                    <p>1 utente</p> 
+                                </div>
+
+                    
+                                <div class="flex-row justify-content-st align-items-st">
+                                    <div><i class="fa-solid fa-folder"></i></div>
+                                    <p>5 TB di spazio di archiviazione sicuro</p> 
+                                </div>
+
+                                <div class="flex-row justify-content-st align-items-st">
+                                    <div><i class="fa-solid fa-share-nodes"></i></div>
+                                    <p>Funzioni di produttività premium e condivisione di file semplice e sicura</p> 
+                                </div>
+                                
+
+
+
+                            </div>
+                            <div class="button-blue">
+                                Prova gratis per 30 giorni
+                            </div>
+                            <p>oppure <a href="#">acquista ora</a></p>
+                            <hr>
+                            <h4 class="ciao">Punti Salienti del piano</h4>
+                            <div class="flex-row justify-content-st align-items-st">
+                                <div><i class="fa-solid fa-check"></i></div>
+                                <p>Invia file fino a 100 GB con Dropbox Transfert</p>
+                            </div>
+                            <div class="flex-row justify-content-st align-items-st">
+                                <div><i class="fa-solid fa-check"></i></div>
+                                <p>Cartelle offline su dispositivi mobili</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- center card -->
+                    <div class="card">
+                        <div class="card-plan">
+                            <i class="fa-solid fa-users"></i>
+                            Team
+                        </div>
+                        
+                        <div class="info-plan">
+                            <h3>Professional</h3>
+                        </div>
+                    </div>
+                    <!-- right-card -->
+                    <div class="card">
+                        <div class="card-plan">
+                            <i class="fa-sharp fa-solid fa-building"></i>
+                            Azienda
+                        </div>
+                        
+                        <div class="info-plan">
+                            <h3>Professional</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
 
 
