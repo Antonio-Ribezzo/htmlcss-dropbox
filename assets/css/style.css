@@ -131,3 +131,16 @@ h1{
     margin-top: 20px;
 }
 
+/* main - third section */
+#sec-3{
+    margin-top: 40px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.text-sec-3{
+    padding: 40px;
+}
+
+.text-sec-3 span{
+    margin: 20px 0;
+}
