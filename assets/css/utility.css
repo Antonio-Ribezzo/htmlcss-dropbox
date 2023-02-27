@@ -59,6 +59,14 @@ h4{
     flex-direction: column;
 }
 
+.flex-start{
+    align-items: flex-start;
+}
+
+.flex-grow{
+    flex-grow: 1;
+}
+
 .justify-content-sb{
     justify-content: space-between;
 }
@@ -79,14 +87,24 @@ h4{
     align-items: flex-start;
 }
 
-.flex-start{
-    align-items: flex-start;
-}
-
 .button-blue{
     background-color: #1d61ff;
     color: white;
-    padding: 5px 15px;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.button-blue1{
+    background-color: #1d61ff;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.button-blue2{
+    background-color: #1d61ff;
+    color: white;
+    padding: 10px 30px;
     text-align: center;
 }
 
