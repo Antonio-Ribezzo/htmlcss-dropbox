@@ -67,6 +67,10 @@ h1{
     margin-bottom: 10px;
 }
 
+.fa-arrow-down{
+    color: #000000;
+}
+
 #text-sec1{
     flex-basis: 30%;
 }
