@@ -22,48 +22,50 @@
 <body>
 
     <!-- header in position fixed -->
-    <header class="fixed flex-row justify-content-sb">
+    <header class="sticky flex-row justify-content-sb">
         <div class="flex-row align-items-c">
-            <img src="./assets/img/logo-small.png" alt="logo-dropbox">
+            <a href="#">
+                <img src="./assets/img/logo-small.png" alt="logo-dropbox">
+            </a>
             <nav>
                 <ul class="flex-row">
-                    <li>Perchè Dropbox</li>
-                    <li>Funzioni</li>
-                    <li>Piani e Prezzi</li>
+                    <a href="#"><li>Perchè Dropbox</li></a>
+                    <a href="#"><li>Funzioni</li></a>
+                    <a href="#"><li>Piani e Prezzi</li></a>
                 </ul>
             </nav>
         </div>
         <div class="flex-row align-items-c">
             <nav>
                 <ul class="flex-row align-items-c">
-                    <li>Supporto</li>
-                    <li>Contatta l'ufficio vendite</li>
-                    <li>Accedi</li>
+                    <a href="#"><li>Supporto</li></a>
+                    <a href="#"><li>Contatta l'ufficio vendite</li></a>
+                    <a href="#"><li>Accedi</li></a>
                 </ul>
             </nav>
             <!-- pulsante inizia -->
-            <a class="button-blue1" href="#">Inizia</a>
+            <a id="bt-header" class="bt-blue" href="#">Inizia</a>
         </div>
     </header>
 
     <!-- corpo della pagina -->
     <main>
         <section id="sec-1">
-            <div class="conteiner-60 position-relative">
+            <div class="conteiner-sec1 conteiner-60 position-relative">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="flex-row justify-content-sb">
-                    <div class="flex-column flex-start">
-                        <p>Finalmente tutti i tuoi strumenti, contenuti e <br> collaboratori sono accessibili dallo stesso posto. <br> Dropbox Business è più di uno spazio di <br> archiviazione sicuro: è un modo intelligente e <br> integrato per ottimizzare il flusso di lavoro <br> esistente.</p>
+                    <div id="text-sec1" class="flex-column align-items-st">
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
 
-                        <a class="button-blue" href="#">Inizia la tua prova gratuita</a>
+                        <a class="bt-blue bt-main" href="#">Inizia la tua prova gratuita</a>
 
                         <span>Annulla in qualsiasi momento</span>
 
                         <i class="fa-solid fa-arrow-down"></i>
                     </div>
 
-                    <div>
-                        <img class="position-absolute" src="./assets/img/jumbo.png" alt="jumbo.png" height="400px">
+                    <div id="img-sec1">
+                        <img src="./assets/img/jumbo.png" alt="jumbo.png" width="100%">
                     </div>
                 </div>
             </div>
@@ -96,44 +98,45 @@
                                 <h3>Professional</h3>
                                 <h4>&euro; 12.00</h4>
                                 <span>/mese</span>
-                                <div class="flex-column justify-content-c">
-    
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-user"></i></div>
-                                        <p>1 utente</p> 
-                                    </div>
-    
-                        
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-folder"></i></div>
-                                        <p>5 TB di spazio di archiviazione sicuro</p> 
-                                    </div>
-    
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-share-nodes"></i></div>
-                                        <p>Funzioni di produttività premium e condivisione di file semplice e sicura</p> 
-                                    </div>
-                                    
-    
-    
-    
-                                </div>
-                                <div class="button-blue">
+                                <ul>
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-user"></i>1 utente
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione di file semplice e sicura
+                                        </div>
+                                    </li>
+                                </ul>
+                                
+                                <div class="bt-blue bt-main">
                                     Prova gratis per 30 giorni
                                 </div>
                                 <p>oppure <a href="#">acquista ora</a></p>
                                 <hr>
                                 <h4>Punti Salienti del piano</h4>
-                                <div class="lista-punti-sal">
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-check"></i></div>
-                                        <p>Invia file fino a 100 GB con Dropbox Transfert</p>
-                                    </div>
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-check"></i></div>
-                                        <p>Cartelle offline su dispositivi mobili</p>
-                                    </div>
-                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-check"></i>Invia file fino a 100 GB con Dropbox Transfert
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <!-- center card -->
@@ -146,48 +149,62 @@
                                 <h3>Advanced</h3>
                                 <h4>&euro; 18.00</h4>
                                 <span>/utente/mese</span>
-                                <div class="flex-column justify-content-c">
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-users"></i></div>
-                                        <p>3 o più utenti</p> 
-                                    </div>
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-folder"></i></div>
-                                        <p>Tutto lo spazio di cui ha bisogno il tuo team</p> 
-                                    </div>
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-share-nodes"></i></div>
-                                        <p>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p> 
-                                    </div>
-                                </div>
-                                <div class="button-blue">
+                                <ul>
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-users"></i>3 o più utenti
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-folder"></i>Tutto lo spazio di cui ha bisogno il tuo team
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-share-nodes"></i>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="bt-blue bt-main">
                                     Prova gratis per 30 giorni
                                 </div>
                                 <p>oppure <a href="#">acquista ora</a></p>
                                 <hr>
                                 <h4>Punti Salienti del piano</h4>
-                                <div class="lista-punti-sal">
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-check"></i></div>
-                                        <p>Nessun limite di spazio per i file</p>
-                                    </div>
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-check"></i></div>
-                                        <p>Cartelle offline su dispositivi mobili</p>
-                                    </div>
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-check"></i></div>
-                                        <p>Risparmio del 50% rispetto alle iscrizioni singole</p>
-                                    </div>
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-check"></i></div>
-                                        <p>Possibilità di inserire nuovi membri del team</p>
-                                    </div>
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-check"></i></div>
-                                        <p>Gestione dei permessi in base ai ruoli</p>
-                                    </div>
-                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-check"></i>Nessun limite di spazio per i file
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-check"></i>Possibilità di inserire nuovi membri del team
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-check"></i>Gestione dei permessi in base ai ruoli
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <!-- right-card -->
@@ -200,40 +217,50 @@
                                 <h3>Enterprise</h3>
                                 <h4>Contattaci</h4>
                                 <span>-</span>
-                                <div class="flex-column justify-content-c">
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-user"></i></div>
-                                        <p>10 o più utenti</p> 
-                                    </div>
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-folder"></i></div>
-                                        <p>Soluzioni personalizzabili per la tua azienda</p> 
-                                    </div>
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-share-nodes"></i></div>
-                                        <p>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p> 
-                                    </div>
-                                </div>
-                                <div class="button-blue">
+                                <ul>
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-user"></i>10 o più utenti
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-folder"></i>Soluzioni personalizzabili per la tua azienda
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-share-nodes"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="bt-blue bt-main">
                                     Contattaci
                                 </div>
                                 <p>oppure <a href="#">acquista ora</a></p>
                                 <hr>
                                 <h4 class="ciao">Punti Salienti del piano</h4>
-                                <div class="lista-punti-sal">
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-check"></i></div>
-                                        <p>Cartelle offline su dispositivi mobili</p>
-                                    </div>
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-check"></i></div>
-                                        <p>Servizio assistenza 24/h</p>
-                                    </div>
-                                    <div class="flex-row justify-content-st align-items-st">
-                                        <div><i class="fa-solid fa-check"></i></div>
-                                        <p>Possibilità di personalizzazione totale</p>
-                                    </div>
-                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-check"></i>Servizio assistenza 24/h
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="line-h13 flex-row align-items-st justify-content-st">
+                                            <i class="fa-solid fa-check"></i>Possibilità di personalizzazione totale
+                                        </div>
+                                    </li>
+                                </ul>                    
                             </div>
                         </div>
                     </div>
@@ -248,7 +275,7 @@
                                 <h4>Contatta l'ufficio vendite per i prezzi</h4>
                                 <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
                             </div>
-                            <div class="button-blue2">
+                            <div class="bt-blue bt-main">
                                 Contatta l'ufficio vendite
                             </div>
                         </div>
@@ -265,7 +292,7 @@
                 <div class="text-sec-3 flex-column align-items-st">
                     <h3>Entra in contatto con un partner Dropbox</h3>
                     <span>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui</span>
-                    <div class="button-grey">Trova un partner</div>
+                    <div class="bt-grey">Trova un partner</div>
                 </div>
             </div>
         </section>
@@ -356,7 +383,7 @@
             <div class="conteiner-under-loghi flex-row justify-content-c">
                 <div class="conteiner-50 flex-row justify-content-sb align-items-c">
                     <h2>Porta Dropbox Business <br> nella tua azienda</h2>
-                    <div class="button-white">Inizia la tua prova gratuita</div>
+                    <a id="bt-sec6" href="#"><div class="bt-white">Inizia la tua prova gratuita</div></a>
                 </div>
             </div>
         </section>

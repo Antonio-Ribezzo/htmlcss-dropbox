@@ -4,23 +4,36 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    padding: 20px;
+    padding: 0 20px;
     font-family: 'Hind Vadodara', sans-serif;
     z-index: 999999999;
 }
+header img{
+    display: block;
+}
 
 header ul li{
-    margin: 0 20px;
+    margin: 0px 20px;
+    padding: 20px 0;
 }
 
 header a{
     text-decoration: none;
+    color: #000000;
+}
+
+header nav ul li:hover{
+    border-bottom: 1px solid black;
+}
+
+#bt-header{
+    padding: 0 10px;
 }
 
 /* main - first section */
 #sec-1{
     background-color: #b4d0e7;
-    padding-top: 140px;
+    padding-top: 60px;
 }
 
 h1{
@@ -32,6 +45,10 @@ h1{
     font-family: 'Hind Vadodara', sans-serif;
 }
 
+.bt-main{
+    padding: 10px 30px;
+}
+
 #sec-1 a{
     margin-bottom: 20px;
     font-family: 'Hind Vadodara', sans-serif;
@@ -39,7 +56,7 @@ h1{
 
 #sec-1 span{
     font-family: 'Hind Vadodara', sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 #sec-1 a{
     text-decoration: none;
@@ -50,9 +67,16 @@ h1{
     margin-bottom: 10px;
 }
 
-#sec-1 img{
-    top: 100;
-    right: 0;
+#text-sec1{
+    flex-basis: 30%;
+}
+
+#img-sec1{
+    flex-basis: 60%;
+}
+
+.conteiner-sec1{
+    top: 50px;
 }
 
 /* main - second section */
@@ -95,7 +119,7 @@ h1{
 }
 
 .info-plan h4{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .info-plan span{
@@ -104,13 +128,21 @@ h1{
     font-size: 13px;
 }
 
+.info-plan ul li{
+    margin-bottom: 10px;
+}
+
+.line-h13{
+    line-height: 13px;
+}
+
 .info-plan .fa-user, .fa-folder, .fa-share-nodes, .fa-check, .info-plan .fa-users{
     margin-right: 10px;
     margin-bottom: 30px;
 }
 
-.info-plan .button-blue{
-    margin: 30px 0;
+.info-plan .bt-blue{
+    margin-bottom: 30px;
 }
 
 .info-plan hr{
@@ -121,10 +153,6 @@ h1{
 
 .fa-check{
     color: #1d61ff;
-}
-
-.lista-punti-sal{
-    margin-top: 20px;
 }
 
 .last-card p{
@@ -245,6 +273,11 @@ h1{
 
 .conteiner-under-loghi h2{
     color: #600628;
+}
+
+#bt-sec6{
+    text-decoration: none;
+    color: #000000;
 }
 
 /* main - seventh section */
